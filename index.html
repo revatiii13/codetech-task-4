@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Learning Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📚 E-Learning Dashboard</h1>
+    <p>Learn • Track • Grow</p>
+</header>
+
+<section class="courses">
+    <div class="course-card">
+        <h3>Frontend Development</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <progress value="60" max="100"></progress>
+        <span>60% Completed</span>
+        <button onclick="updateProgress(this)">Mark Lesson Done</button>
+    </div>
+
+    <div class="course-card">
+        <h3>React Basics</h3>
+        <p>Components & Hooks</p>
+        <progress value="40" max="100"></progress>
+        <span>40% Completed</span>
+        <button onclick="updateProgress(this)">Mark Lesson Done</button>
+    </div>
+
+    <div class="course-card">
+        <h3>Computer Networks</h3>
+        <p>OSI, TCP/IP, Protocols</p>
+        <progress value="70" max="100"></progress>
+        <span>70% Completed</span>
+        <button onclick="updateProgress(this)">Mark Lesson Done</button>
+    </div>
+</section>
+
+<footer>
+    <p>
+        Designed by <span>Revati Kute</span> • 
+        <a href="mailto:revatikute13@gmail.com">revatikute13@gmail.com</a>
+    </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
